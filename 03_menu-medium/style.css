@@ -1,0 +1,28 @@
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #eeeeee;
+  height: 3rem;
+  padding: 1rem;
+  gap: 1rem;
+  border-radius: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav img {
+  height: 70%;
+}
+
+nav a {
+  margin-left: auto;
+  text-decoration: none; 
+  color: #999;
+}
+
+nav a:hover {
+  color:#222;;
+}
+
+nav a + a {
+  margin-left: 1rem;
+}
