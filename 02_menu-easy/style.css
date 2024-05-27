@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  background-color: #eeeeee;
+  height: 3rem;
+  display: flex;
+  gap: 50px;
+  margin-top: 5rem;
+}
+
+nav a {
+  padding: 1rem;
+  justify-content: center;
+  align-self: center;
+  color: #666;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #666;
+  color: #ccc;
+  flex: 1;
+}
+
+
+/* When hovering, the box becomes too large, how best fix?
+*/
