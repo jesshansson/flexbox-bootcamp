@@ -1,0 +1,25 @@
+body {
+  background-color: #eeeeee;   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+}
+
+main {
+  background-color: white;
+  width: 650px;
+  height: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 3rem rgba(0,0,0,.1);
+}
+
+aside {
+ width: 170px;
+ height: 170px;
+ border-radius: 50%;
+ background-color: rgb(190, 24, 24);
+}
